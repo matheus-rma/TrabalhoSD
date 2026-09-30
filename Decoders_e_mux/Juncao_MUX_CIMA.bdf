@@ -22,7 +22,7 @@ https://fpgasoftware.intel.com/eula.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect -96 488 -80 680)
+	(rect -96 840 -80 1032)
 	(text "INPUT" (rect 0 15 10 43)(font "Arial" (font_size 6))(vertical))
 	(text "SomaSub[5..0]" (rect 1 113 13 186)(font "Arial" )(vertical))
 	(pt 8 0)
@@ -39,7 +39,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect -48 504 -32 679)
+	(rect -48 840 -32 1015)
 	(text "INPUT" (rect 0 15 10 43)(font "Arial" (font_size 6))(vertical))
 	(text "Comp2[5..0]" (rect 2 112 19 169)(font "Intel Clear" )(vertical))
 	(pt 8 0)
@@ -56,7 +56,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 8 512 24 680)
+	(rect 8 848 24 1016)
 	(text "INPUT" (rect 0 15 10 43)(font "Arial" (font_size 6))(vertical))
 	(text "Xor[5..0]" (rect 0 114 17 154)(font "Intel Clear" )(vertical))
 	(pt 8 0)
@@ -73,7 +73,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 64 512 80 680)
+	(rect 64 848 80 1016)
 	(text "INPUT" (rect 0 15 10 43)(font "Arial" (font_size 6))(vertical))
 	(text "And[5..0]" (rect 0 114 17 156)(font "Intel Clear" )(vertical))
 	(pt 8 0)
@@ -90,7 +90,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 120 512 136 680)
+	(rect 120 848 136 1016)
 	(text "INPUT" (rect 0 15 10 43)(font "Arial" (font_size 6))(vertical))
 	(text "M1" (rect 1 113 13 127)(font "Arial" )(vertical))
 	(pt 8 0)
@@ -107,7 +107,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(input)
-	(rect 184 512 200 680)
+	(rect 184 848 200 1016)
 	(text "INPUT" (rect 0 15 10 43)(font "Arial" (font_size 6))(vertical))
 	(text "M0" (rect 0 109 17 124)(font "Intel Clear" )(vertical))
 	(pt 8 0)
@@ -481,14 +481,6 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (connector
-	(pt 352 -104)
-	(pt 272 -104)
-)
-(connector
-	(pt 352 -88)
-	(pt 272 -88)
-)
-(connector
 	(text "SomaSub[0]" (rect 299 -184 356 -167)(font "Intel Clear" ))
 	(pt 352 -168)
 	(pt 272 -168)
@@ -507,14 +499,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "And[0]" (rect 321 -136 352 -119)(font "Intel Clear" ))
 	(pt 352 -120)
 	(pt 272 -120)
-)
-(connector
-	(pt 352 56)
-	(pt 272 56)
-)
-(connector
-	(pt 352 72)
-	(pt 272 72)
 )
 (connector
 	(text "SomaSub[1]" (rect 299 -24 356 -7)(font "Intel Clear" ))
@@ -537,14 +521,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 272 40)
 )
 (connector
-	(pt 352 216)
-	(pt 272 216)
-)
-(connector
-	(pt 352 232)
-	(pt 272 232)
-)
-(connector
 	(text "SomaSub[2]" (rect 299 136 356 153)(font "Intel Clear" ))
 	(pt 352 152)
 	(pt 272 152)
@@ -563,14 +539,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "And[2]" (rect 321 184 352 201)(font "Intel Clear" ))
 	(pt 352 200)
 	(pt 272 200)
-)
-(connector
-	(pt 352 376)
-	(pt 272 376)
-)
-(connector
-	(pt 352 392)
-	(pt 272 392)
 )
 (connector
 	(text "SomaSub[3]" (rect 299 296 356 313)(font "Intel Clear" ))
@@ -593,14 +561,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 272 360)
 )
 (connector
-	(pt 352 536)
-	(pt 272 536)
-)
-(connector
-	(pt 352 552)
-	(pt 272 552)
-)
-(connector
 	(text "SomaSub[4]" (rect 299 456 356 473)(font "Intel Clear" ))
 	(pt 352 472)
 	(pt 272 472)
@@ -619,14 +579,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "And[4]" (rect 321 504 352 521)(font "Intel Clear" ))
 	(pt 352 520)
 	(pt 272 520)
-)
-(connector
-	(pt 352 696)
-	(pt 272 696)
-)
-(connector
-	(pt 352 712)
-	(pt 272 712)
 )
 (connector
 	(text "SomaSub[5]" (rect 299 616 356 633)(font "Intel Clear" ))
@@ -679,30 +631,138 @@ https://fpgasoftware.intel.com/eula.
 	(pt 592 632)
 )
 (connector
-	(pt -88 488)
-	(pt -88 -192)
+	(pt 128 -104)
+	(pt 352 -104)
+)
+(connector
+	(pt 192 -88)
+	(pt 352 -88)
+)
+(connector
+	(pt 128 56)
+	(pt 352 56)
+)
+(connector
+	(pt 192 72)
+	(pt 352 72)
+)
+(connector
+	(pt 192 232)
+	(pt 352 232)
+)
+(connector
+	(pt 128 376)
+	(pt 352 376)
+)
+(connector
+	(pt 192 392)
+	(pt 352 392)
+)
+(connector
+	(pt 192 72)
+	(pt 192 232)
+)
+(connector
+	(pt 192 232)
+	(pt 192 392)
+)
+(connector
+	(pt -40 -224)
+	(pt -40 840)
 	(bus)
 )
 (connector
-	(pt -40 504)
-	(pt -40 -192)
+	(pt 16 -224)
+	(pt 16 848)
 	(bus)
 )
 (connector
-	(pt 16 512)
-	(pt 16 -192)
+	(pt 72 -224)
+	(pt 72 848)
 	(bus)
 )
 (connector
-	(pt 72 512)
-	(pt 72 -192)
+	(pt -88 -224)
+	(pt -88 840)
 	(bus)
 )
 (connector
-	(pt 128 512)
-	(pt 128 -192)
+	(pt 128 -224)
+	(pt 128 -104)
 )
 (connector
-	(pt 192 512)
-	(pt 192 -192)
+	(pt 128 -104)
+	(pt 128 56)
 )
+(connector
+	(pt 192 -224)
+	(pt 192 -88)
+)
+(connector
+	(pt 192 -88)
+	(pt 192 72)
+)
+(connector
+	(pt 128 536)
+	(pt 352 536)
+)
+(connector
+	(pt 128 376)
+	(pt 128 536)
+)
+(connector
+	(pt 192 552)
+	(pt 352 552)
+)
+(connector
+	(pt 192 392)
+	(pt 192 552)
+)
+(connector
+	(pt 128 696)
+	(pt 352 696)
+)
+(connector
+	(pt 128 536)
+	(pt 128 696)
+)
+(connector
+	(pt 128 696)
+	(pt 128 848)
+)
+(connector
+	(pt 192 712)
+	(pt 352 712)
+)
+(connector
+	(pt 192 552)
+	(pt 192 712)
+)
+(connector
+	(pt 192 712)
+	(pt 192 848)
+)
+(connector
+	(pt 352 216)
+	(pt 128 216)
+)
+(connector
+	(pt 128 56)
+	(pt 128 216)
+)
+(connector
+	(pt 128 216)
+	(pt 128 376)
+)
+(junction (pt 128 -104))
+(junction (pt 192 -88))
+(junction (pt 128 56))
+(junction (pt 192 72))
+(junction (pt 192 232))
+(junction (pt 128 376))
+(junction (pt 192 392))
+(junction (pt 128 536))
+(junction (pt 192 552))
+(junction (pt 128 696))
+(junction (pt 192 712))
+(junction (pt 128 216))

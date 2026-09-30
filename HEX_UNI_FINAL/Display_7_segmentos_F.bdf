@@ -152,7 +152,7 @@ https://fpgasoftware.intel.com/eula.
 (symbol
 	(rect 344 -448 440 -320)
 	(text "HEX0[0]" (rect 5 0 55 19)(font "Intel Clear" (font_size 8)))
-	(text "385928" (rect 8 107 43 124)(font "Intel Clear" ))
+	(text "HEX00" (rect 8 107 39 124)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -202,7 +202,7 @@ https://fpgasoftware.intel.com/eula.
 (symbol
 	(rect 344 -312 440 -184)
 	(text "HEX0[1]" (rect 5 0 55 19)(font "Intel Clear" (font_size 8)))
-	(text "43242442" (rect 8 107 55 124)(font "Intel Clear" ))
+	(text "HEX01" (rect 8 107 39 124)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -252,7 +252,7 @@ https://fpgasoftware.intel.com/eula.
 (symbol
 	(rect 344 -176 440 -48)
 	(text "HEX0[2]" (rect 5 0 55 19)(font "Intel Clear" (font_size 8)))
-	(text "01001010111" (rect 8 107 72 124)(font "Intel Clear" ))
+	(text "HEX02" (rect 8 107 39 124)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -302,7 +302,7 @@ https://fpgasoftware.intel.com/eula.
 (symbol
 	(rect 344 -24 440 104)
 	(text "HEX0[3]" (rect 5 0 55 19)(font "Intel Clear" (font_size 8)))
-	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
+	(text "HEX03" (rect 8 107 39 124)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -352,7 +352,7 @@ https://fpgasoftware.intel.com/eula.
 (symbol
 	(rect 344 112 440 240)
 	(text "HEX0[4]" (rect 5 0 55 19)(font "Intel Clear" (font_size 8)))
-	(text "inst5" (rect 8 107 30 124)(font "Intel Clear" ))
+	(text "HEX04" (rect 8 107 39 124)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -402,7 +402,7 @@ https://fpgasoftware.intel.com/eula.
 (symbol
 	(rect 344 256 440 384)
 	(text "HEX0[5]" (rect 5 0 55 19)(font "Intel Clear" (font_size 8)))
-	(text "inst6" (rect 8 107 30 124)(font "Intel Clear" ))
+	(text "HEX05" (rect 8 107 39 124)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -452,7 +452,7 @@ https://fpgasoftware.intel.com/eula.
 (symbol
 	(rect 344 400 440 528)
 	(text "HEX0[6]" (rect 5 0 55 19)(font "Intel Clear" (font_size 8)))
-	(text "inst7" (rect 8 107 30 124)(font "Intel Clear" ))
+	(text "HEX06" (rect 8 107 39 124)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
